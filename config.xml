@@ -5,14 +5,14 @@
         versionCode = "10"
         version     = "1.1.0">
  
-    <name>Employee Directory</name>
+    <name>Reloj analógico y digital</name>
  
     <description>
-        A simple employee directory application
+        Un reloj analológico y digital con segundero
     </description>
  
-    <author href="http://coenraets.org" email="ccoenraets@gmail.com">
-        Christophe Coenraets
+    <author href="http://www.carlosalejandroperez.com" email="carloslej.perez@gmail.com">
+        Carlos Pérez
     </author>
  
     <feature name="http://api.phonegap.com/1.0/camera"/>
