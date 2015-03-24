@@ -23,18 +23,26 @@
     <feature name="http://api.phonegap.com/1.0/network"/>
     <feature name="http://api.phonegap.com/1.0/notification"/>
     
-	
-	<preference name="SplashScreen" value="screen"/>
-	<preference name="SplashScreenDelay" value="10000"/>
-	
 	<icon src="icon.png" />
 	
-	
-	<platform name="android">
+<!--	<platform name="android">
 		<icon src="icon/icon.png"/>
-    <!-- you can use any density that exists in the Android project -->
+    <!-- you can use any density that exists in the Android project 
     	<splash src="splash/splash.png" density="port-hdpi"/>
    </platform>
+   -->
 
- 
+ <platform name="android">
+    <!-- you can use any density that exists in the Android project -->
+    <splash src="splash/splash.png" density="land-hdpi"/>
+    <splash src="splash/splash.png" density="land-ldpi"/>
+    <splash src="splash/splash.png" density="land-mdpi"/>
+    <splash src="splash/splash.png" density="land-xhdpi"/>
+    <splash src="splash/splash.png" density="port-hdpi"/>
+    <splash src="splash/splash.png" density="port-ldpi"/>
+    <splash src="splash/splash.png" density="port-mdpi"/>
+    <splash src="splash/splash.png" density="port-xhdpi"/>
+</platform>
+	<preference name="SplashScreen" value="screen"/>
+	<preference name="SplashScreenDelay" value="10000"/>
 </widget>
