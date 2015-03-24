@@ -3,7 +3,7 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "es.turing"
         versionCode = "4"
-        version     = "1.6.0">
+        version     = "1.7.0">
  
     <name>Reloj analógico y digital</name>
  
@@ -14,7 +14,7 @@
     <author href="http://www.carlosalejandroperez.com" email="carloslej.perez@gmail.com">
         Carlos Pérez
     </author>
- 
+ 	
     <feature name="http://api.phonegap.com/1.0/camera"/>
     <feature name="http://api.phonegap.com/1.0/contacts"/>
     <feature name="http://api.phonegap.com/1.0/file"/>
@@ -25,13 +25,6 @@
     
 	<icon src="icon.png" />
 	
-<!--	<platform name="android">
-		<icon src="icon/icon.png"/>
-    <!-- you can use any density that exists in the Android project 
-    	<splash src="splash/splash.png" density="port-hdpi"/>
-   </platform>
-   -->
-
  <platform name="android">
     <!-- you can use any density that exists in the Android project -->
     <splash src="splash/splash.png" density="land-hdpi"/>
