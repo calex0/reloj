@@ -22,13 +22,10 @@
     <feature name="http://api.phonegap.com/1.0/media"/>
     <feature name="http://api.phonegap.com/1.0/network"/>
     <feature name="http://api.phonegap.com/1.0/notification"/>
-    <gap:splash src="splash.png" gap:platform="android" gap:qualifier="hdpi" />
 
-	<platform name="android">
-              <icon src="icon/hdpi.png" density="hdpi" />
-              <splash src="splash/splash.png" density="port-hdpi"/>
-
-	</platform>
-
+	<icon src="icon/icon.png" />
+	<icon src="icon/icon.png" platform="android" density="hdpi" />
+   <gap:splash src="splash/splash.png" />
+	<gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="splash/splash.png" />
  
 </widget>
