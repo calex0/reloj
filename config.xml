@@ -3,7 +3,7 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "es.turing"
         versionCode = "4"
-        version     = "1.8.0">
+        version     = "1.9.0">
  
     <name>Reloj analógico y digital</name>
  
@@ -38,5 +38,5 @@
     <splash src="splash/splash.png" density="port-xhdpi"/>
 </platform>
 	<preference name="SplashScreen" value="screen"/>
-	<preference name="SplashScreenDelay" value="10000"/>
+	<preference name="SplashScreenDelay" value="5000"/>
 </widget>
