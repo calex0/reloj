@@ -3,7 +3,7 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "es.turing"
         versionCode = "4"
-        version     = "1.5.0">
+        version     = "1.6.0">
  
     <name>Reloj analógico y digital</name>
  
@@ -23,12 +23,18 @@
     <feature name="http://api.phonegap.com/1.0/network"/>
     <feature name="http://api.phonegap.com/1.0/notification"/>
     
-	<preference name="SplashScreen" value="screen" />
-	<preference name="SplashScreenDelay" value="1000" />
-	<icon src="icon" />
-	<icon gap:platform="android" gap:qualifier="hdpi" src="icon/icon" />
 	
-	<gap:splash src="splash" />
-	<gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="splash/splash" />
+	<preference name="SplashScreen" value="screen"/>
+	<preference name="SplashScreenDelay" value="10000"/>
+	
+	<icon src="icon.png" />
+	
+	
+	<platform name="android">
+		<icon src="icon/icon.png"/>
+    <!-- you can use any density that exists in the Android project -->
+    	<splash src="splash/splash.png" density="port-hdpi"/>
+   </platform>
+
  
 </widget>
